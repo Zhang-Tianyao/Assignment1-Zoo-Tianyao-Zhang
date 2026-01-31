@@ -11,8 +11,19 @@ public class Driver {
 		System.out.println("============Main Execution Start===================\n\n");
 
          //Add your code in between these two print statements
+
+		System.out.println("=== ZooAnimals (Concrete API) ===");
+		ZooAnimals.demo();
+
+		System.out.println("\n=== ZooAbstractAnimals (Abstract API) ===");
+		ZooAbstractAnimals.demo();
+
+		System.out.println("\n=== ZooAnamalisticAnimals (Interface API) ===");
+		ZooAnamalisticAnimals.demo();
+
+		System.out.println("\n=== ZooObjectAnimals (Object API) ===");
+		ZooObjectAnimals.demo();
 		 
 		System.out.println("\n\n============Main Execution End===================");
 	}
-
 }
